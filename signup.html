@@ -1,1 +1,17 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up — Citiviser</title>
+<link rel="stylesheet" href="css/styles.css">
+</head><body><header class="navbar">
+<div class="logo"><img src="assets/logo.png"><span>Citiviser</span></div>
+<nav><a href="login.html">Login</a></nav>
+</header><section class="section" style="max-width:420px;margin:auto"><h2>Create your account</h2>
+<p style="color:gray;margin-bottom:20px">Start booking or list your property</p><form id="signupForm"><input type="text" id="name" placeholder="Full name" required style="width:100%;padding:12px;margin:8px 0"><input type="email" id="email" placeholder="Email" required style="width:100%;padding:12px;margin:8px 0"><input type="password" id="password" placeholder="Password" required style="width:100%;padding:12px;margin:8px 0"><select id="role" style="width:100%;padding:12px;margin:8px 0">
+<option value="customer">Customer</option>
+<option value="vendor">Vendor</option>
+</select><button class="btn btn-primary" style="width:100%;margin-top:10px">Create account</button>
 
+</form><p id="msg" style="margin-top:15px;color:green"></p></section><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config/supabase.js"></script><script src="js/auth.js"></script></body>
+</html>
